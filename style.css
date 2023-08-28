@@ -1,0 +1,248 @@
+/********************* LOGIN PAGE **********************************/
+
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: seagreen; */
+    background:url(/Images/sunset-485016_1920.png) no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.Container{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.Container h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.Container .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /*background: salmon;*/
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline:none ;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.Container .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0px 15px;
+    
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+    
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+    /* margin-right: 13px;*/ 
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.Container .button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Container .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+}
+
+
+/********************* SIGN UP PAGE **********************************/
+
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signup-body{
+    display: flex;
+    background: url(/Images/blur-2178678_1920.jpg) no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.Container2{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.Container2 h1{
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.Container2 .input-box2{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box2 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline:none ;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-box2 input::placeholder{
+    color: #fff;
+}
+
+.input-box2 i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.Container2 .button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.Container2 .Login2{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.Login2 p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Login2 a:hover{
+    text-decoration: underline;
+}
+
+.policy p{
+    color:#fff;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.policy a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+}
+.policy a:hover{
+    text-decoration: underline;
+}
